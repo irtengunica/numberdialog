@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/dfragbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dialogfragment"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/alertdfragbutton"
+        android:layout_alignStart="@+id/alertdfragbutton" />
+
+    <Button
+        android:id="@+id/alertdfragbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dfragbutton"
+        android:layout_centerInParent="true"
+        android:text="alertdialogfragment" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button1"
+        android:layout_below="@+id/alertdfragbutton"
+        android:layout_alignLeft="@+id/alertdfragbutton"
+        android:layout_alignStart="@+id/alertdfragbutton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button2"
+        android:layout_below="@+id/button1"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignStart="@+id/button1" />
+
+</RelativeLayout>
